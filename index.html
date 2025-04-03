@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Multivisión</title>
+    <style type="text/css">
+        /*Declaración de variable CSS*/
+        :root {
+            /* Variables para la paleta de colores */
+            --color1: #FFB936;
+            --color2: #fff;
+            --color3: #000000;
+            /* Texto */
+            --color4: #203646;
+            /* Titulo */
+            --color5: #797c7f;
+            /* Fondo pie de pagina */
+            --color6: #dfdfdf;
+            /* Texto pie de pagina */
+
+            /* Variables para la tipografia */
+            --fuente1: "verdana";
+        }
+
+        /* Selector de tipo HTML */
+        body {
+            font-family: var(--fuente1);
+            /* Fuente Principal */
+            line-height: 1.5em;
+            /* Interlineado */
+        }
+
+        /* Seletores de tipo ID* */
+        #cabecera {
+            background-color: var(--color3);
+            color: var(--color2);
+        }
+
+        #nosotros {
+            background-color: var(--color1);
+            color: var(--color3);
+        }
+
+        #servicios {
+            background-color: var(--color2);
+            color: var(--color3);
+        }
+
+        #pie {
+            background-color: var(--color5);
+            color: var(--color6);
+        }
+
+        /* Selectores de tipo CLASS */
+        .contenedor {
+            max-width: 70%;
+            margin: auto;
+        }
+
+        .espaciado {
+            padding-top: 90px;
+            padding-bottom: 90px;
+        }
+
+        .titulo {
+            max-width: 15%;
+            margin: auto;
+        }
+
+        .titulo2 {
+            max-width: 15%;
+            margin: auto;
+            padding-top: 1%;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header id="cabecera" class="espaciado">
+        <div> <!-- Encajonar o Margenes -->
+            <h1 class="titulo">LA REAL 394</h1> <!-- Titulo de nivel 1 -->
+            <h3 class="titulo2">Donde el sabor es real</h3>
+            
+        </div>
+
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="nosotros" class="espaciado">
+            <div class="contenedor"> <!-- Encajonar o Margenes -->
+                <h2>Quiénes somos </h2>
+                <p>En La Real 394, creemos que un buen sándwich es mucho más que solo comida. Es una experiencia, un
+                    momento de felicidad. Por eso, nos dedicamos a crear sándwiches únicos, con combinaciones de sabores
+                    que te harán volver por más. Usamos ingredientes frescos y de la mejor calidad, y le ponemos todo
+                    nuestro corazón a cada preparación. ¡Ven a descubrir el sabor auténtico de La Real 394!</p>
+                <p>La Real 394 es más que una sanguchería; es un lugar de encuentro, un espacio donde se comparten
+                    risas, historias y, por supuesto, deliciosos sándwiches. Nos enorgullece ser parte de la comunidad y
+                    contribuir a crear momentos especiales para cada persona que nos visita.</p>
+                    <img src="https://easyeat.ancorathemes.com/wp-content/uploads/2023/05/crown-2.svg" style="position: relative;bottom: 285px;right: 65px;"alt="Corona real">
+            </div>
+        </section>
+
+        <section id="servicios" class="espaciado">
+            <div class="contenedor"> <!-- Encajonar o Margenes -->
+                <h2>Nuestra Historia</h2>
+                <p>Todo comenzó con la idea de crear un espacio donde los ingredientes frescos y de calidad se
+                    combinaran en sándwiches únicos y memorables. Inspirados en las recetas tradicionales y con un toque
+                    de innovación, comenzamos a experimentar con combinaciones de sabores que sorprendieran y deleitaran
+                    a nuestros clientes.
+                </p>
+                <p>Te invitamos a ser parte de nuestra historia, a descubrir el sabor auténtico de La Real 394 y a
+                    disfrutar de la pasión que ponemos en cada sándwich. ¡Te esperamos con los brazos abiertos!</p>
+                    <img src="https://easyeat.ancorathemes.com/wp-content/uploads/2023/05/crown-3.svg" style="position: relative;bottom: 265px;left: 190px;"alt="Corona real">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer id="pie">
+        <div class="contenedor"> <!-- Encajonar o Margenes -->
+            <span>&copy; 2025 LA REAL 394 S.A.C. - Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
